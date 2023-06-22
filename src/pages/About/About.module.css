@@ -1,0 +1,47 @@
+.about {
+  margin: 155px 0;
+}
+.about__title h1 {
+  line-height: 57.984px;
+  font-size: 48px;
+  font-weight: 700;
+  color: #211f54;
+  text-align: center;
+}
+.about__subtitle p {
+  padding: 21px 0 58px;
+  margin: 0 auto;
+  max-width: 648px;
+  font-size: 21px;
+  line-height: 30.006px;
+  color: #6e7191;
+}
+.about__card {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  align-items: center;
+}
+.card__item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 39px;
+}
+.card_img img {
+  width: 100%;
+}
+.card_info h2 {
+  line-height: 36.008px;
+  font-size: 28px;
+  font-weight: 700;
+  color: #211f54;
+}
+.card_info p {
+  padding-top: 16px;
+  margin: 0 auto;
+  max-width: 412px;
+  font-size: 21px;
+  line-height: 30.006px;
+  color: #6e7191;
+}

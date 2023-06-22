@@ -1,0 +1,89 @@
+.main__body {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.main__content {
+  padding: 230px 0 140px;
+}
+.content__title h1 {
+  max-width: 518px;
+  line-height: 73.984px;
+  font-size: 68px;
+  font-weight: 700;
+  text-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  color: #211f54;
+}
+.content__title p {
+  padding: 22px 0 34px;
+  max-width: 591px;
+  line-height: 30.006px;
+  font-size: 21px;
+  color: #6e7191;
+}
+.content__btn {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 28px;
+}
+.content-button button {
+  padding: 26px 38px;
+  line-height: 18px;
+  font-size: 16px;
+  font-weight: 400;
+  border-radius: 14px;
+  -webkit-border-radius: 14px;
+  -moz-border-radius: 14px;
+  -ms-border-radius: 14px;
+  -o-border-radius: 14px;
+  background: #0075ff;
+  color: #fff;
+  font-style: normal;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  transition: 0.3s;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -ms-transition: 0.3s;
+  -o-transition: 0.3s;
+}
+.content-button button:hover {
+  border-color: #eff0f6;
+  border-radius: 14px;
+  box-shadow: 0px 4px 10px rgba(20, 20, 43, 0.04);
+  color: #211f54;
+  background: #ffffff;
+  -webkit-border-radius: 14px;
+  -moz-border-radius: 14px;
+  -ms-border-radius: 14px;
+  -o-border-radius: 14px;
+}
+.content-contact {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 16px;
+}
+.contact-number p {
+  letter-spacing: 1.6px;
+  line-height: 18px;
+  font-size: 16px;
+  color: #6e7191;
+  text-transform: uppercase;
+}
+.contact-number a {
+  line-height: 36.008px;
+  font-size: 28px;
+  font-weight: 700;
+  color: #211f54;
+}
+.home {
+  position: relative;
+}
+.main__backround img {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
